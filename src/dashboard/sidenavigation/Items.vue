@@ -34,7 +34,7 @@
   </ul>
 </template>
 
-<script>
+<script setup>
 import SidenavItem from './Item.vue';
 
 /* ICONS */
@@ -46,19 +46,4 @@ import ProjectsIcon from './icons/Projects.vue';
 import DashboardIcon from './icons/Dashboard.vue';
 import TimeManageIcon from './icons/TimeManage.vue';
 import DocumentationIcon from './icons/Documentation.vue';
-
-export default {
-  name: 'SidenavItems',
-  components: {
-    TasksIcon,
-    ReportsIcon,
-    SidenavItem,
-    SettingsIcon,
-    ProjectsIcon,
-    CalendarIcon,
-    DashboardIcon,
-    TimeManageIcon,
-    DocumentationIcon,
-  },
-};
 </script>

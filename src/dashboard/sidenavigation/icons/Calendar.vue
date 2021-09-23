@@ -13,10 +13,4 @@
   </svg>
 </template>
 
-<script>
-export default {
-  name: 'CalendarIcon',
-};
-</script>
-
-<style scoped></style>
+<script setup></script>

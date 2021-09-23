@@ -18,18 +18,11 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import { inject } from 'vue';
 import Overlay from './provider/Overlay.vue';
 import TopNavigation from './topnavigation/Index.vue';
 import SideNavigation from './sidenavigation/Index.vue';
 
-export default {
-  name: 'DashboardLayout',
-  components: { Overlay, SideNavigation, TopNavigation },
-  setup() {
-    const open = inject('open');
-    return { open };
-  },
-};
+const open = inject('open');
 </script>

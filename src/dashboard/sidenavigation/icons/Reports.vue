@@ -13,8 +13,4 @@
   </svg>
 </template>
 
-<script>
-export default {
-  name: 'ReportsIcon',
-};
-</script>
+<script setup></script>

@@ -13,8 +13,4 @@
   </svg>
 </template>
 
-<script>
-export default {
-  name: 'TimeManageIcon',
-};
-</script>
+<script setup></script>

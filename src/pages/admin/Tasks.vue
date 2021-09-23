@@ -2,13 +2,6 @@
   <Content title="Tasks" />
 </template>
 
-<script>
+<script setup>
 import Content from '../../components/Content.vue';
-
-export default {
-  name: 'TasksPage',
-  components: {
-    Content,
-  },
-};
 </script>

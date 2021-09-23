@@ -13,8 +13,4 @@
   </svg>
 </template>
 
-<script>
-export default {
-  name: 'ProjectsIcon',
-};
-</script>
+<script setup></script>

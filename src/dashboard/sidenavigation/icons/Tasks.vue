@@ -13,8 +13,4 @@
   </svg>
 </template>
 
-<script>
-export default {
-  name: 'TasksIcon',
-};
-</script>
+<script setup></script>

@@ -12,8 +12,4 @@
   </svg>
 </template>
 
-<script>
-export default {
-  name: 'DashboardIcon',
-};
-</script>
+<script setup></script>

@@ -2,13 +2,6 @@
   <Content title="Time Manage" />
 </template>
 
-<script>
+<script setup>
 import Content from '../../components/Content.vue';
-
-export default {
-  name: 'TimeManagePage',
-  components: {
-    Content,
-  },
-};
 </script>
